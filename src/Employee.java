@@ -30,7 +30,7 @@ public class Employee {
         this.name = employeeName;
         this.baseSalary = initBaseSalary;
         this.yearsOfExperience = initYearsOfExperience;
-        this.yearsAtCompany = initYearsAtCompany;
+        yearsAtCompany = initYearsAtCompany;
         this.empVacation = baseVacation;
         //TODO
     }
@@ -47,12 +47,14 @@ public class Employee {
     public double getBaseSalary(){ return baseSalary;}
     public void setAllottedVacation(){ empVacation = baseVacation;}
     public double getAllottedVacation(){ return empVacation;}
-    public void setEmployeeYearsOfExperience(){ this.yearsOfExperience = yearsOfExperience;}
-    public double getEmployeeYearsOfExperience (){ return yearsOfExperience;}
+    public void setEmployeeYearsAtCompany(){ yearsAtCompany = yearsAtCompany;}
+    public double getEmployeeYearsAtCompany(){ return yearsAtCompany;}
+    public void setEmployeeExperience(){ yearsOfExperience = yearsOfExperience;}
+    public double getEmployeeYearsExperience(){ return yearsOfExperience;}
 
-    private double adjustment() {
-        return empVacation *= 2;
-    }
+//    private double adjustment() {
+//        return empVacation *= 2;
+//    }
     //public void setMotto(){ this.motto();}
     //public String getMotto (){ return motto();}
     /**
