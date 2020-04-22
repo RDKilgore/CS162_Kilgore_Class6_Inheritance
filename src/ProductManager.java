@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class ProductManager extends Employee {
     private double productManagerSalary;
     private double stockOptionBonus = 100;
-    //private double employeeStockOptionBalance[];
     private double productManagerSalaryAdjustment = 2.0 ;
 
     public ProductManager(String name, double baseSalary, int yearsOfExperience, int yearsAtCompany){
@@ -35,5 +34,4 @@ public class ProductManager extends Employee {
     public String motto(){
         return "There is nothing so useless as doing efficiently that which should not be done at all";
     }
-    //String employeeName, double initBaseSalary, int initYearsOfExperience, int initYearsAtCompany
 }

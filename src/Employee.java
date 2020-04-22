@@ -1,7 +1,7 @@
 /**
  * Employee.java - Employee Benefits Management
- * @author Kimberly Bryant
- * @version 1
+ * @author Rian Kilgore
+ * @version 2
  */
 public class Employee {
     private String name = null;
@@ -52,11 +52,7 @@ public class Employee {
     public void setEmployeeExperience(){ yearsOfExperience = yearsOfExperience;}
     public double getEmployeeYearsExperience(){ return yearsOfExperience;}
 
-//    private double adjustment() {
-//        return empVacation *= 2;
-//    }
-    //public void setMotto(){ this.motto();}
-    //public String getMotto (){ return motto();}
+
     /**
      * Returns a generic employee motto
      * @return A value of data type String
